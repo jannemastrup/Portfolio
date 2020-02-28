@@ -5,7 +5,7 @@
  Author:       Janne Mastrup
  Author URI:   http://www.mynordicstory.dk
  Template:     chique
- Version:      2.2
+ Version:      2.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -129,4 +129,11 @@ footer {
 
 .elementor-element.elementor-element-e82019e.elementor-widget.elementor-widget-text-editor > div > div > p:nth-child(4) > a {
     color: #d0a483;
+}
+
+/*media quieries - display none af ikon element*/
+@media only screen and (max-width: 800px) {
+.elementor-153 .elementor-element.elementor-element-0d4ab8a:not(.elementor-motion-effects-element-type-background) { 
+    display:none;
+}
 }
