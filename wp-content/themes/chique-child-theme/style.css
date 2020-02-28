@@ -5,7 +5,7 @@
  Author:       Janne Mastrup
  Author URI:   http://www.mynordicstory.dk
  Template:     chique
- Version:      1.9
+ Version:      2.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -102,5 +102,11 @@ footer {
     display: none;
 }
 
+
+/*Tilføjelse af animation på knapper vha. https://daneden.github.io/animate.css */
+ .animated {
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
 
 
